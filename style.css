@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header h3 {
+  float: right;
+
+}
+main h2 {
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gray, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray, white); /* Standard syntax */
+}
+
+.projects {
+  display: block;
+}
+.project {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  background-color: silver;
+}
+
+.project img {
+  width: 100%;
+  float: left;
+}
+
+
+
+ #about {
+   display: inline-block;
+   width: 100%;
+   vertical-align: top;
+ }
+
+#about_text{
+  width: 60%;
+  float: right;
+  padding: 10px;
+  padding-right: 100px;
+}
+#about img{
+  width: 30%;
+}
